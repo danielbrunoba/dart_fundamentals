@@ -9,22 +9,22 @@ void main() {
   var subStringName2 = name.substring(0, 7);
   print(subStringName2);
 
-  var sex = 'Male';
+  var sex = 'Masculino';
   var sexAcronym = sex.substring(0, 1);
   print(sexAcronym);
   if (sexAcronym == 'M') {
-    print('Hello, your gender is male');
+    print('Olá, seu sexo é Masculino');
   }
 
   if (sex.startsWith('M')) {
-    print('Hello, your gender is Male');
+    print('Olá, seu sexo é Masculino');
   }
 
   if (sex.toLowerCase().startsWith('M')) {
-    print('Hello, your gender is Male (lowercase)');
+    print('Olá, seu sexo é Masculino (lowercase)');
   }
   if (name.toLowerCase().contains('daniel')) {
-    print('Its from the Daniel family');
+    print('É da família Daniel');
   }
 
   // Interpolation;
@@ -32,19 +32,19 @@ void main() {
   var firstName = 'Daniel';
   var lastName = 'Bruno';
 
-  var salutation = 'Hello '+ firstName + ' ' + lastName + ' be very welcome';
+  var salutation = 'Olá '+ firstName + ' ' + lastName + ' seja muito bem vindo';
   print(salutation);
 
-  var salutation2 = 'Olá $firstName $lastName be very welcome';
+  var salutation2 = 'Olá $firstName $lastName seja muito bem vindo';
   print(salutation2);
 
-  print('Hello ${firstName.toLowerCase()}');
+  print('Olá ${firstName.toLowerCase()}');
 
-  print('Sum of 2 + 2 is ${2 + 2}');
+  print('Soma de 2 + 2 is ${2 + 2}');
 
-  print('Hello $firstName');
+  print('Olá $firstName');
 
-  var patient = 'Daniel Bruno|21|Dart and Flutter student|RN';
+  var patient = 'Daniel Bruno|21|Estudante Engenharia de Software|RN';
   var patientData = patient.split('|');
   print(patientData);
   print(patientData[0]);
@@ -57,8 +57,8 @@ void main() {
   }
 
   var patients = [
-    'Daniel Bruno|21y|Dart and Flutter student|RN',
-    'Lavinia Laura|21y|Math student|RN',
+    'Daniel Bruno|21|Cursa Engenharia de Software|RN',
+    'Lavinia Laura|21|Cursa Matemática|RN',
   ];
 
   for(patient in patients) {

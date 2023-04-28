@@ -2,27 +2,27 @@ void main() {
   var numbers = List.generate(10, (index) => index);
   var names = ['Rodrigo', 'Guilherme', 'Arthur', 'Sandra', 'Bruno'];
 
-  print('Printing numbers with conventional for');
+  print('Imprimindo números com conventional for');
   for (var i = 0; i < numbers.length; i++) {
     print(numbers[i]);
   }
 
-  print('Printing names with conventional for');
+  print('Imprimindo nomes com conventional for');
   for (var i = 0; i < names.length; i++) {
     print(names[i]);
   }
 
-  print('Printing numbers with for-in');
+  print('Imprimindo números com for-in');
   for (var number in numbers) {
     print(number);
   }
 
-  print('Printing names with for-in');
+  print('Imprimindo nomes com for-in');
   for (var name in names) {
     print(name);
   }
 
-  print('Printing names with conventional for and break');
+  print('Imprimindo nomes com for e break convencionais');
   for (var i = 0; i < names.length; i++) {
     print(names[i]);
     if (i == 1) {
@@ -38,7 +38,7 @@ void main() {
     }
   }
 
-  print('Printing names with conventional for with continue');
+  print('Imprimindo nomes com convencional para com continuar');
   for(var i = 0; i < names.length; i++) {
     if(i == 1 || i == 3) {
       continue;

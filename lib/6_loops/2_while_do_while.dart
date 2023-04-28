@@ -5,7 +5,7 @@ void main(){
 
   // While
   var number = 0;
-  print('While conventional');
+  print('While convencional');
   while(number < 10){
     print(number);
     number++;

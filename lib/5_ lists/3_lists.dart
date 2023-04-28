@@ -35,7 +35,7 @@ void main(){
 
   // print(names[0]); <- replace it
   print(names.last);
-  print('Searching first name');
+  print('Pesquisando primeiro nome');
   var firstName = names.firstWhere((name){
     print(name);
     if(name == 'Maria'){
@@ -69,9 +69,9 @@ void main(){
   var activePromotion = true;
 
   var products = [
-    'Beer',
-    'Refrigerant',
-    if(activePromotion) 'Orange juice'];
+    'Cerveja',
+    'Refrigerante',
+    if(activePromotion) 'Suco de Laranja'];
   print(products);
 
   // Collection For
